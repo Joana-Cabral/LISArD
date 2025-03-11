@@ -11,3 +11,6 @@ The script `whitebox_attacks.sh` has multiple commands to evaluate the model in 
 1. Previously train a model using LISArD methodology;
 2. In `whitebox_attacks.sh`, change the `MODEL` to the path of the previously trained model;
 3. In `whitebox_attacks.sh`, change the `TYPE` to correspond to the `MODEL` architecture.
+
+### Cite
+
