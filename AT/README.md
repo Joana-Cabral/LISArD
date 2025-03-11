@@ -27,6 +27,7 @@ To train in Tiny ImageNet, the following structure is expected in Tiny ImageNet 
 |   |   |-- val_0.JPEG
 |   |   |-- val_1.JPEG
 |   |   |-- ...
+|   |   |-- val_labels.csv
 |
 ```
 
