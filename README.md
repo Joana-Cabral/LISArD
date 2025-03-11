@@ -19,10 +19,10 @@ Comparison of different training methods on **gray-box settings** on CIFAR-10. S
 
 ### State-of-the-art Comparison on CIFAR-10
 
-Performance comparison with state-of-the-art approaches, with and without the inclusion of Adversarial Training (AT), on gray-box and white-box settings on CIFAR-10.
+Performance comparison with state-of-the-art approaches, with and without the inclusion of Adversarial Training (AT), on gray-box and white-box settings on CIFAR-10. Columns 2 to 5 refer to gray-box settings and 6 to 9 refer to white-box settings.
 
-| Model              | Gray-box Accuracy                             | White-box Accuracy                            | t/ep (min)     | 
-|                    | Clean     | FGSM      | PGD       | AA        | Clean     | FGSM      | PGD       | AA        |                |
+
+| Model              | Clean     | FGSM      | PGD       | AA        | Clean     | FGSM      | PGD       | AA        | t/ep (min)     |
 |:-------------------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:--------------:|
 | AdaAD              | 80.32     | 77.53     | 77.92     | 78.14     | 85.58     | 60.85     | 56.40     | 51.37     | 09:52          |
 | AdaAD wo/ AT       | 88.89     | 70.71     | 63.83     | 67.06     | 88.89     | 37.93     | 1.39      | 0.11      | 09:46          |
@@ -39,10 +39,10 @@ Performance comparison with state-of-the-art approaches, with and without the in
 
 ### State-of-the-art Comparison on CIFAR-100
 
-Performance comparison with state-of-the-art approaches, with and without the inclusion of Adversarial Training (AT), on gray-box and white-box settings on CIFAR-100.
+Performance comparison with state-of-the-art approaches, with and without the inclusion of Adversarial Training (AT), on gray-box and white-box settings on CIFAR-100. Columns 2 to 5 refer to gray-box settings and 6 to 9 refer to white-box settings.
 
-| Model              | Gray-box Accuracy                             | White-box Accuracy                            | t/ep (min)     | 
-|                    | Clean     | FGSM      | PGD       | AA        | Clean     | FGSM      | PGD       | AA        |                |
+
+| Model              | Clean     | FGSM      | PGD       | AA        | Clean     | FGSM      | PGD       | AA        | t/ep (min)     |
 |:-------------------|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:---------:|:--------------:|
 | AdaAD              | 61.82     | 58.91     | 58.83     | 59.55     | 62.19     | 35.33     | 32.52     | 26.74     | 09:53          |
 | AdaAD wo/ AT       | 67.85     | 51.39     | 52.54     | 54.65     | 67.85     | 23.20     | 3.47      | 1.07      | 09:47          |
