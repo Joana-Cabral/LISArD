@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/926531059.svg)](https://doi.org/10.5281/zenodo.17158447)
+
 # LISArD: Learning Image Similarity to Defend Against Gray-box Adversarial Attacks
 
 *Official Pytorch implementation of the [LISArD: Learning Image Similarity to Defend Against Gray-box Adversarial Attacks](https://www.arxiv.org/abs/2502.20562)*
